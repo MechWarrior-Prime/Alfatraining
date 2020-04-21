@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo-NavBar-FGD", "ToDo-NavBar-FGD\ToDo-NavBar-FGD.csproj", "{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Debug|iPhone.Build.0 = Debug|iPhone
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Release|iPhone.ActiveCfg = Release|iPhone
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Release|iPhone.Build.0 = Release|iPhone
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Release|iPhone.Deploy.0 = Release|iPhone
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{58318ED3-A3C8-484B-A77E-16D4F7ECAEFE}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1DAE275-1CB8-4CC4-B612-F1CA122987BE}
+	EndGlobalSection
+EndGlobal

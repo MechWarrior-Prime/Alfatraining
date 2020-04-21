@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="220" translatesAutoresizingMaskIntoConstraints="NO" text="Currency Converter Online" misplaced="YES" ambiguous="YES">
+                                <rect key="frame" x="20" y="40" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="222" translatesAutoresizingMaskIntoConstraints="NO" text="Source">
+                                <rect key="frame" x="20" y="97" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="223" translatesAutoresizingMaskIntoConstraints="NO" text="Target">
+                                <rect key="frame" x="20" y="252" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" id="224" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="161" y="69" width="233" height="146"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" id="225" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="161" y="252" width="233" height="146"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="231" translatesAutoresizingMaskIntoConstraints="NO" text="Amount">
+                                <rect key="frame" x="20" y="406" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="232" translatesAutoresizingMaskIntoConstraints="NO" text="0.0" misplaced="YES">
+                                <rect key="frame" x="15" y="504" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="233" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Enter amount to convert" clearsOnBeginEditing="YES" clearButtonMode="always">
+                                <rect key="frame" x="20" y="435" width="364" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint id="242" firstItem="220" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20"/>
+                            <constraint id="243" firstItem="224" firstAttribute="top" secondItem="220" secondAttribute="bottom" constant="8"/>
+                            <constraint id="244" firstItem="222" firstAttribute="top" secondItem="220" secondAttribute="bottom" constant="36"/>
+                            <constraint id="1344" firstItem="224" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="141"/>
+                            <constraint id="1345" firstItem="224" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="1346" firstItem="224" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49"/>
+                            <constraint id="1347" firstItem="wfy-db-euE" firstAttribute="top" secondItem="224" secondAttribute="bottom" constant="521"/>
+                            <constraint id="1574" firstItem="223" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="1575" firstItem="223" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232"/>
+                            <constraint id="1576" firstItem="225" firstAttribute="trailing" secondItem="223" secondAttribute="trailing" constant="258"/>
+                            <constraint id="1577" firstItem="223" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="1578" firstItem="wfy-db-euE" firstAttribute="top" secondItem="223" secondAttribute="bottom" constant="463"/>
+                            <constraint id="1579" firstItem="222" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="1580" firstItem="224" firstAttribute="trailing" secondItem="222" secondAttribute="trailing" constant="258"/>
+                            <constraint id="1581" firstItem="222" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="77"/>
+                            <constraint id="1583" firstItem="223" firstAttribute="top" secondItem="222" secondAttribute="bottom" constant="134"/>
+                            <constraint id="1584" firstItem="225" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="141"/>
+                            <constraint id="1585" firstItem="225" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232"/>
+                            <constraint id="1586" firstItem="225" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="1587" firstItem="wfy-db-euE" firstAttribute="top" secondItem="225" secondAttribute="bottom" constant="338"/>
+                            <constraint id="1588" firstItem="231" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="1589" firstItem="231" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="1590" firstAttribute="trailingMargin" secondItem="231" secondAttribute="trailing" constant="258"/>
+                            <constraint id="1593" firstItem="233" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="1595" firstItem="232" firstAttribute="trailing" secondItem="233" secondAttribute="trailing" constant="10"/>
+                            <constraint id="1598" firstAttribute="trailingMargin" secondItem="233" secondAttribute="trailing" constant="10"/>
+                            <constraint id="1599" firstItem="232" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="1601" firstItem="232" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="2401" firstItem="231" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="386"/>
+                            <constraint id="2403" firstItem="233" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="415"/>
+                            <constraint id="2404" firstItem="wfy-db-euE" firstAttribute="top" secondItem="233" secondAttribute="bottom" constant="271"/>
+                            <constraint id="2405" firstItem="wfy-db-euE" firstAttribute="top" secondItem="231" secondAttribute="bottom" constant="309"/>
+                            <constraint id="2446" firstItem="232" firstAttribute="top" secondItem="233" secondAttribute="bottom" constant="39"/>
+                            <constraint id="2447" firstItem="wfy-db-euE" firstAttribute="top" secondItem="232" secondAttribute="bottom" constant="211"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="220" id="name-outlet-220"/>
+                        <outlet property="lblSource" destination="222" id="name-outlet-222"/>
+                        <outlet property="lblTarget" destination="223" id="name-outlet-223"/>
+                        <outlet property="pvSource" destination="224" id="name-outlet-224"/>
+                        <outlet property="pvTarget" destination="225" id="name-outlet-225"/>
+                        <outlet property="lblAmount" destination="231" id="name-outlet-231"/>
+                        <outlet property="lblOutput" destination="232" id="name-outlet-232"/>
+                        <outlet property="txtAmount" destination="233" id="name-outlet-233"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

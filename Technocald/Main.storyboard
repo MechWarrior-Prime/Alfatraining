@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="197" translatesAutoresizingMaskIntoConstraints="NO" text="Technocalc">
+                                <rect key="frame" x="41" y="43" width="332" height="53"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1478" firstAttribute="width" constant="332"/>
+                                    <constraint id="1488" firstAttribute="height" constant="53"/>
+                                </constraints>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="199" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="right" placeholder="0" clearsOnBeginEditing="YES" text="0">
+                                <rect key="frame" x="51" y="128" width="160" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <constraints>
+                                    <constraint id="1489" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="200" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="right" placeholder="0" clearsOnBeginEditing="YES" text="0">
+                                <rect key="frame" x="219" y="128" width="160" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <constraints>
+                                    <constraint id="1490" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="204" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="4" text="0">
+                                <rect key="frame" x="51" y="181" width="328" height="91"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1553" firstAttribute="height" constant="91"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="209" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="51" y="320" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                <state key="normal" title="+"/>
+                                <constraints>
+                                    <constraint id="1479" firstAttribute="width" constant="46"/>
+                                    <constraint id="1555" firstAttribute="height" constant="30"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="215" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="105" y="320" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                <state key="normal" title="-"/>
+                                <constraints>
+                                    <constraint id="1480" firstAttribute="width" constant="46"/>
+                                    <constraint id="1556" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="216" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="159" y="320" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                <state key="normal" title="*"/>
+                                <constraints>
+                                    <constraint id="1481" firstAttribute="width" constant="46"/>
+                                    <constraint id="1557" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="217" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="213" y="320" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                <state key="normal" title="/"/>
+                                <constraints>
+                                    <constraint id="1482" firstAttribute="width" constant="46"/>
+                                    <constraint id="1558" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="218" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="267" y="320" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                <state key="normal" title="√"/>
+                                <constraints>
+                                    <constraint id="1483" firstAttribute="width" constant="46"/>
+                                    <constraint id="1559" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="219" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="327" y="320" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                <state key="normal" title="^"/>
+                                <constraints>
+                                    <constraint id="1484" firstAttribute="width" constant="46"/>
+                                    <constraint id="1560" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="1486" firstItem="197" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23"/>
+                            <constraint id="1487" firstItem="197" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21"/>
+                            <constraint id="1491" firstItem="199" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31"/>
+                            <constraint id="1492" firstItem="199" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="32"/>
+                            <constraint id="1521" firstItem="200" firstAttribute="leading" secondItem="199" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1522" firstItem="200" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="32"/>
+                            <constraint id="1552" firstItem="204" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31"/>
+                            <constraint id="1554" firstItem="204" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="85"/>
+                            <constraint id="1599" firstItem="209" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="48"/>
+                            <constraint id="1600" firstItem="215" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="48"/>
+                            <constraint id="1601" firstItem="216" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="48"/>
+                            <constraint id="1602" firstItem="217" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="48"/>
+                            <constraint id="1603" firstItem="218" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="48"/>
+                            <constraint id="1604" firstItem="219" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="48"/>
+                            <constraint id="1606" firstItem="209" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31"/>
+                            <constraint id="1607" firstItem="215" firstAttribute="leading" secondItem="209" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1608" firstItem="216" firstAttribute="leading" secondItem="215" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1609" firstItem="217" firstAttribute="leading" secondItem="216" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1610" firstItem="218" firstAttribute="leading" secondItem="217" secondAttribute="trailing" constant="8"/>
+                            <constraint id="4562" firstAttribute="trailingMargin" secondItem="204" secondAttribute="trailing" constant="15"/>
+                            <constraint id="4563" firstAttribute="trailingMargin" secondItem="200" secondAttribute="trailing" constant="15"/>
+                            <constraint id="4564" firstItem="200" firstAttribute="leading" secondItem="199" secondAttribute="trailing" constant="8"/>
+                            <constraint id="4861" firstItem="200" firstAttribute="leading" secondItem="199" secondAttribute="trailing" constant="8"/>
+                            <constraint id="4862" firstAttribute="trailingMargin" secondItem="199" secondAttribute="trailing" constant="183"/>
+                            <constraint id="5163" firstItem="219" firstAttribute="leading" secondItem="218" secondAttribute="trailing" constant="14"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="197" id="name-outlet-197"/>
+                        <outlet property="txtInputB" destination="200" id="name-outlet-200"/>
+                        <outlet property="txtInputA" destination="199" id="name-outlet-199"/>
+                        <outlet property="lblOutput" destination="204" id="name-outlet-204"/>
+                        <outlet property="btnAdd" destination="209" id="name-outlet-209"/>
+                        <outlet property="btnSub" destination="215" id="name-outlet-215"/>
+                        <outlet property="btnMult" destination="216" id="name-outlet-216"/>
+                        <outlet property="btnDiv" destination="217" id="name-outlet-217"/>
+                        <outlet property="btnPower" destination="219" id="name-outlet-219"/>
+                        <outlet property="btnSqrt" destination="218" id="name-outlet-218"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
